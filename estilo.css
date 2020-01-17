@@ -1,0 +1,82 @@
+
+body{
+    background: rgb(41, 126, 148);
+}
+
+article#case{
+    padding: 10px;
+    width: 30%;
+    min-width: 350px;
+    max-width: 530px;
+    height: 500px;
+    background: rgb(63, 58, 58);
+    margin: 70px auto;
+    border-radius: 15px;
+    border: 5px ridge rgb(63, 54, 54);
+    box-shadow: 4px 4px 5px black;
+}
+
+#visor{
+    overflow: hidden;
+    text-align: right;
+    border: 3px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 70px;
+    line-height: 40px;
+    margin: 20px 0px 0px 0px;
+    height: 85px;
+    width: 100%;
+    background: rgb(190, 186, 186);
+    border-radius: 15px;
+    outline: 0;
+    margin-bottom: 20px;
+}
+section{
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+    background-color: rgb(202, 176, 176);
+    display: inline-block;
+    margin: 3px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+}
+
+#topo{
+    display: flex;
+    justify-content: space-around;
+}
+#topo section{
+    flex-grow: 1;
+}
+
+#meio{
+    display: flex;
+    height: 290px;
+}
+
+.numeros{
+    width: 73.5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.numeros section{
+    flex-grow: 1;
+    flex-basis: 70px;
+}
+
+#lateral{
+    display: flex;
+    flex-direction: column;
+    width: 26.5%;
+    justify-content: space-between;
+    
+}
+#lateral section {
+    width: 90%;
+    line-height: 55px;
+    height: 80px;
+}

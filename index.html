@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <article id="case">
+        <input type="text" placeholder="0" id="visor">
+        <article id="topo">
+                <section onclick="calcular('numero', '0')" >
+                    0
+                </section>
+                <section onclick="calcular('operador', '+')">
+                    +
+                </section>
+                <section onclick="calcular('operador', '-')">
+                    -
+                </section>
+                <section onclick="calcular('operador', 'c')">
+                    C
+                </section>
+        </article>
+        <article id="meio">
+        <article class="numeros"> 
+                <section onclick="calcular('numero', '1')">
+                    1
+                </section>
+                <section onclick="calcular('numero', '2')">
+                    2
+                </section>
+                <section onclick="calcular('numero', '3')">
+                    3
+                </section>
+                <section onclick="calcular('numero', '4')">
+                    4
+                </section>
+                <section onclick="calcular('numero', '5')">
+                    5
+                </section>
+                <section onclick="calcular('numero', '6')">
+                    6
+                </section>
+                <section onclick="calcular('numero', '7')">
+                    7
+                </section>
+                <section onclick="calcular('numero', '8')">
+                    8
+                </section>
+                <section onclick="calcular('numero', '9')">
+                    9
+                </section>   
+          </article> 
+            <article id="lateral">
+                <section onclick="calcular('operador', '.')">
+                    .
+                </section>
+                <section onclick="calcular('operador', '/')">
+                    /
+                </section>
+                <section onclick="calcular('operador', '*')">
+                    x
+                </section>
+                <section onclick="calcular('operador', '=')">
+                    =
+                </section>
+            </article>
+         </article>
+     </article>
+    <script src="script.js"></script>
+</body>
+</html>
