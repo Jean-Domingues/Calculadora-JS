@@ -10,12 +10,8 @@ function calcular(tipo, dado) {
         else{
             let resultado = eval(visorTela.value);
             visorTela.value = resultado;
-            
         }
-
     }else{
         visorTela.value += dado;
     }
-
-
 }
